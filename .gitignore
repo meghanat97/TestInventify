@@ -106,3 +106,81 @@ testresources/Jasmine/\*.js
 
 # IQ Cop reports
 reports/
+
+########################################
+# Build & Generated Artifacts
+########################################
+
+build/
+dist/
+temp/
+tmp/
+middleware/build/
+middleware/target/
+
+# Auto-generated code
+modules/generated/
+controllers/generated/
+
+########################################
+# OS / System Files
+########################################
+
+.DS_Store
+Thumbs.db
+
+########################################
+# Logs
+########################################
+
+*.log
+
+########################################
+# Environment & Local Config
+########################################
+
+.env
+*.local
+
+########################################
+# Node / JS Dependencies (if used)
+########################################
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+########################################
+# Java / Gradle / Maven
+########################################
+
+.gradle/
+.mvn/
+target/
+*.iml
+
+########################################
+# IDE / Editor Files
+########################################
+
+# Kony / Temenos Studio
+.kony/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# IntelliJ / WebStorm
+.idea/
+
+########################################
+# Temporary / Cache
+########################################
+
+*.swp
+*.swo
+*.tmp
+*.bak
+
+
