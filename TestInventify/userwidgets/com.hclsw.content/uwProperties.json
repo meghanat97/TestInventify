@@ -1,0 +1,121 @@
+{
+    "classname": "content",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i1380b40f9f04e5ea2c924dde4463088",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "TH1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "labelTextH1",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTextBox",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u2c45cc0865446878ac28328b2c34461"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7ce889e77bb4b32a42811c541483554",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 3,
+                    "propertyKey": "masterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "dropdown",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lbldropdown",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "u58d9ec0f6db4e53a8c94f5e70f9912f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a07d1e77badd405092de8a5463965d00",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbldropdown"
+                    },
+                    "srcWgtKUID": "u58d9ec0f6db4e53a8c94f5e70f9912f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa8a86e4a05042bfa6f189e3e75912af",
+                    "originalPropertyKey": "selectedKeys",
+                    "propertyIndex": 3,
+                    "propertyKey": "selectedKeys",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbldropdown"
+                    },
+                    "srcWgtKUID": "u58d9ec0f6db4e53a8c94f5e70f9912f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hclsw",
+    "version": "1.0.0"
+}
